@@ -1,6 +1,3 @@
-// Problem: when I click on the button, nothing happens
-// Solution: use jQuery to make the to do list interactive
-
 // When the add button is clicked, append an item to the incomplete-tasks
 $('.addTask').click(function(){
 	var $input = $(this).prev().val();
@@ -70,22 +67,6 @@ $(document).on('click' , ".edit" , function(){
 $(document).on("click" , ".delete" , function(){
 	$(this).parent().remove();
 });
-
-
-
-
-// When the add button is clicked, append an item to the incomplete-tasks
-// $('.addTask').hover(
-// 	function(){
-// 	    var $input = $(this).prev().val();
-// 	    if($input != ""){
-// 			$('span').hide();
-// 		} else {
-// 			$('span').show();
-// 	}}, function(){
-// 		$('span').delay(800).slideUp(300);
-// 		}
-// );
 
 
 

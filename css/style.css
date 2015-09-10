@@ -1,14 +1,10 @@
 /* Basic Style */
-body {
-  background: #fff;
-  color: #333;
+* {
   font-family: Lato, sans-serif;
 }
 .container {
-  display: block;
   width: 400px;
   margin: 100px auto 0;
-  position: relative;
 }
 ul {
   margin: 0;
@@ -31,7 +27,6 @@ button {
   font-size: 15px;
   width: 60px;
   margin: 10px 0 0;
-  font-family: Lato, sans-serif;
   cursor: pointer;
 }
 button:hover {
@@ -57,7 +52,6 @@ input[type="text"] {
   border: 1px solid #ddd;
   background: #fff;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
   color: #888;
 }
 input[type="text"]:focus {
